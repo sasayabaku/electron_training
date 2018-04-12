@@ -19,3 +19,7 @@ $ npx electron-packager src Eye --platform=darwin --overwrite
 
 ## camApp
 カメラを起動して，表示する処理
+
+## TextEditor
+簡単なテキストエディタを実装  
+参考: [テキストエディターを作ってElectronの基礎を学ぼう！ HTML5でPCアプリ開発入門 - ICS MEDIA](https://ics.media/entry/8401)
