@@ -1,0 +1,120 @@
+html, body {
+  width:100%;
+  height: 100%;
+  margin: 0;
+  background-color: #c1cdd6;
+}
+
+#yoshicam {
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.exContainer {
+  width: 100%;
+  height: 90%;
+  /* background: rgb(53, 62, 140); */
+  display: flex;
+  justify-content: space-between;
+}
+
+.exright {
+  width: 50%;
+  height: 100%;
+  background-color: red;
+}
+
+.exhigh {
+  height: 50%;
+  background-color: #c1cdd6;
+
+  /* 内包コンテンツのセンタリング  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.exrow {
+  height: 50%;
+  background-color: #c1cdd6;
+
+  /* 内包コンテンツのセンタリング  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.exleft {
+  width: 50%;
+  background-color: #c1cdd6;
+}
+
+.content1 {
+  width: 90%;
+  height: 90%;
+  background-color: white;
+
+  /* 内包コンテンツのセンタリング  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content2 {
+  width: 90%;
+  height: 90%;
+  background-color: white;
+}
+
+.schedule li {
+  width:90%;
+  height: 50px;
+  background-color: white;
+  margin-top: 2%;
+  float:right;
+
+  display: flex;
+}
+
+.schedule li span {
+  /* 内包コンテンツのセンタリング  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.date {
+  width: 15%;
+  height: 100%;
+  background-color: #102f6c;
+  color: white;
+  font-size: 20px;
+
+  /* 内包コンテンツのセンタリング  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time {
+  width: 15%;
+  height: 100%;
+  background-color: #194cb0;
+  color: white;
+  font-size: 20px;
+
+  /* 内包コンテンツのセンタリング  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plan_title {
+  padding-left: 10px;
+}
+
+.origin-brand-color {
+  color: #ffffff;
+}
